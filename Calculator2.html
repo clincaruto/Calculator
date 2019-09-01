@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <meta name="description" content="Calculator">
+        <meta name="author" content="Clinyon Afoaku">        
+
+	<title> Calculator</title>
+        <link rel="stylesheet" href="open-iconic-master/font/css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	   <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/cssanimation.min.css">
+        <link rel="stylesheet" href="css/cal.css">
+        <style type="text/css"> </style>
+         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+
+  <form NAME="Calc">
+
+<TABLE BORDER="2">
+
+<TR>
+
+<TD>
+
+<INPUT TYPE="text" id="display" NAME="Input" Size="17">
+
+<br>
+
+</TD>
+
+</TR>
+
+<TR>
+
+<TD class="chuks">
+
+<INPUT TYPE="button" class="btn btn-success"  NAME="one" VALUE=" 1 " OnClick="Calc.Input.value += '1'">
+
+<INPUT TYPE="button"  class="btn btn-warning" NAME="two" VALUE=" 2 " OnCLick="Calc.Input.value += '2'">
+
+<INPUT TYPE="button"  class="btn btn-primary" NAME="three" VALUE=" 3 " OnClick="Calc.Input.value += '3'">
+
+<INPUT TYPE="button"  NAME="plus" VALUE=" + "  OnClick="Calc.Input.value += ' + '">
+
+<br>
+
+<INPUT TYPE="button"  class="btn btn-primary" NAME="four" VALUE=" 4 " OnClick="Calc.Input.value += '4'">
+
+<INPUT TYPE="button"  class="btn btn-success" NAME="five" VALUE=" 5 " OnCLick="Calc.Input.value += '5'">
+
+<INPUT TYPE="button"  class="btn btn-warning" NAME="six" VALUE=" 6 " OnClick="Calc.Input.value += '6'">
+
+<INPUT TYPE="button"  NAME="minus" VALUE=" - " OnClick="Calc.Input.value += ' - '">
+
+<br>
+
+<INPUT TYPE="button"  class="btn btn-warning" NAME="seven" VALUE=" 7 " OnClick="Calc.Input.value += '7'">
+
+<INPUT TYPE="button"  class="btn btn-primary" NAME="eight" VALUE=" 8 " OnCLick="Calc.Input.value += '8'">
+
+<INPUT TYPE="button"  class="btn btn-success" NAME="nine" VALUE=" 9 " OnClick="Calc.Input.value += '9'">
+
+<INPUT TYPE="button"  NAME="times" VALUE=" x " OnClick="Calc.Input.value += ' * '">
+
+<br>
+
+<INPUT TYPE="button"  class="btn btn-success" NAME="clear" VALUE=" c " OnClick="Calc.Input.value = ''">
+
+<INPUT TYPE="button"  class="btn btn-success" NAME="zero" VALUE=" 0 " OnClick="Calc.Input.value += '0'">
+
+<INPUT TYPE="button"  class="btn btn-success" NAME="DoIt" VALUE=" = " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+
+<INPUT TYPE="button"   NAME="div" VALUE=" / " OnClick="Calc.Input.value += ' / '">
+
+<br>
+
+</TD>
+
+</TR>
+
+</TABLE>
+
+</form>
+    </div>
+
+</div>
+
+</div>
+
+
+
+  
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/popper.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/letteranimation.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/mouse-scroll.js"></script>
+<script src="js/jquery.scrollup.min.js"></script>
+
+</body>
+</html>

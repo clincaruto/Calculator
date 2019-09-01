@@ -1,0 +1,30 @@
+body{
+	color: tomato;
+  
+}
+
+input{
+	color: blue;
+	background-color:tomato;
+	
+}
+
+#display{
+	background-color:black;
+	color:white;
+	height:50px;
+
+}
+
+.chuks{
+    font-size: 40px;
+}
+
+table{
+	background-color:brown;
+}
+
+
+
+
+
